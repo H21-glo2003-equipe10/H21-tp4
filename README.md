@@ -90,6 +90,8 @@ Vous pouvez également choisir des récits parmis les suivants :
 
 ### 4.2 - Features
 
+Vous devez également implémenter les features suivantes :
+
 - [Feature 10](./features/feature10.md)
 - [Feature 9 (v2)](./features/feature9-v2.md)
 
@@ -133,6 +135,8 @@ Aussi, veuillez **supprimer les sections originale suivantes** :
 - Structure
 
 ## Partie 6 - Rétro (10%)
+
+TODO
 
 - Évaluation du déroulement
   - Bonne répartition? Évolution de vos stratégie?
