@@ -6,11 +6,13 @@ En tant que développeur du service, j'aimerais vérifier que l'ensemble des ser
 
 ## Critères de succès
 
-| critère | description                                                                       |
-| ------- | --------------------------------------------------------------------------------- |
-| C1      | Chaque service retourne s'il est fonctionnel (`true`) ou non (`false`)            |
-| C2      | Si tous les services sont fonctionnels, le statut HTTP retourné est 200           |
-| C3      | Si au moins 1 des services n'est pas fonctionnel, le statut HTTP retourné est 500 |
+| critère | description                                                                          |
+| ------- | ------------------------------------------------------------------------------------ |
+| C1      | Chaque service retourne s'il est fonctionnel (`true`) ou non (`false`)               |
+| C2      | Si tous les services sont fonctionnels, le statut HTTP retourné est 200              |
+| C3      | Si au moins 1 des services n'est pas fonctionnel, le statut HTTP retourné est 500    |
+| C4      | Le status de `db` est basé sur l'état de la connexion avec MongoDB                   |
+| C5      | Si l'application est roulée localement, le statut de `bd` est automatiquement `true` |
 
 ## Requête
 
